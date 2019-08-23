@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace StaticBehavior.Attributes.SimpleStaticAttributes
+namespace StaticBehavior.Attributes.SimpleAttributes
 {
     public class ExampleClass
     {

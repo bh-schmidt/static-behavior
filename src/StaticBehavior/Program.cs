@@ -1,5 +1,5 @@
-﻿using StaticBehavior.Attributes.SimpleStaticAttributes;
-using System;
+﻿using StaticBehavior.Attributes.SimpleAttributes;
+using StaticBehavior.Attributes.SimpleMemoryCompetition;
 
 namespace StaticBehavior
 {
@@ -7,7 +7,9 @@ namespace StaticBehavior
     {
         static void Main(string[] args)
         {
-            SimpleStaticAttributes.Start();
+            SimpleAttributes.Start();
+            SimpleMemoryCompetition.Start();
+
         }
     }
 }

@@ -1,11 +1,11 @@
-﻿namespace StaticBehavior.Attributes.SimpleStaticAttributes
+﻿namespace StaticBehavior.Attributes.SimpleAttributes
 {
-    public class SimpleStaticAttributes
+    public class SimpleAttributes
     {
         public static void Start()
         {
             ExampleClass.MyStaticProperty = "Just a description.";
-            System.Console.WriteLine("The static property received the value of \"Just a description.\"");
+            System.Console.WriteLine($"The static property received the value of '${ExampleClass.MyStaticProperty}'");
 
             var example1 = new ExampleClass();
             var example2 = new ExampleClass();
